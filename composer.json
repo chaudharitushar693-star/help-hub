@@ -1,0 +1,25 @@
+{
+    "name": "nidhi-chaudhary/yatrisahayata",
+    "type": "project",
+    "description": "YATRI SAHAYATA – Smart Pilgrim Assistance Platform developed by Nidhi Chaudhary (0108CS241082), Samrat Ashok Technological Institute, Vidisha, MP.",
+    "keywords": ["laravel", "pilgrim-assistance", "smart-yatra", "sati-vidisha", "nidhi-chaudhary"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2 || ^8.3",
+        "laravel/framework": "^11.0 || ^12.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
